@@ -1,0 +1,104 @@
+body {
+    background-color: hsl(0, 0, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid {
+    height: 50vw;
+    background-color: inherit;
+    border-color: blue;
+    border-style: solid;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 230px 230px 230px 230px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.p1x1 {
+    background-color: hsl(31, 66%, 93%);
+    width: 230px;
+    height: 460px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.p1x2 {
+    background-color: hsl(256, 67%, 59%);
+    grid-row: 1;
+    grid-column: 2;
+    width: 460px;
+    height: 400px;
+}
+
+.p1x4 {
+    background-color: hsl(254, 88%, 90%);
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.p2x1 {
+    background-color: hsl(39, 100%, 71%);
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.p2x2 {
+    background-color: hsl(0, 0, 100%);
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.p2x3 {
+    background-color: hsl(39, 100%, 71%);
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.p3x2 {
+    background-color: hsl(0, 0, 100%);
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.p3x3 {
+    background-color: hsl(256, 67%, 59%);
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.description {
+    font-family: DMSans-Regular;
+}
+
+.span-quicker {
+    color: hsl(256, 67%, 59%);
+    font-family: DMSans-MediumItalic;
+}
+
+.span-10x {
+    color: hsl(39, 100%, 71%);
+}
+
+.atrribution {
+    margin-top: 50px;
+}
